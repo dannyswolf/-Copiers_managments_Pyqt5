@@ -30,7 +30,6 @@ if mlshop:
 else:  # VPN
     DBASE = "Μηχανήματα_2023.db"  # Local Dbase
     BASE_DIR = "ΑΡΧΕΙΑ"
-    # dbase = "\\\\10.8.0.1\\Public\\GOOGLE-DRIVE\\ΕΓΓΡΑΦΑ\\6.  ΒΙΒΛΙΟ SERVICE\\Service_book.db"  #  VPN Windows
 
 ENGINE = create_engine(f"sqlite:///{DBASE}")
 SESSION = sessionmaker(bind=ENGINE)()
